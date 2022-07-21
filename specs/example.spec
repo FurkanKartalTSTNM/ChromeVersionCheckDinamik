@@ -14,10 +14,7 @@ tags:addProductToBasket
 ## Delete product
 tags:deleteProduct
 * Go to "https://www.amazon.com.tr/" address
-* Search product and add to basket
-* go basket
-* delete product and check
-* check login page
-## Delete
-tags: butona tıklanması
-* Butona tıkla
+//* Search product and add to basket
+//* go basket
+//* delete product and check
+//* check login page
