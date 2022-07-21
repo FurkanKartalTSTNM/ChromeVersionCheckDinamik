@@ -43,7 +43,7 @@ public class BaseTest {
     FirefoxOptions firefoxOptions;
 
     String browserName = "chrome";
-    String selectPlatform = "mac";
+    String selectPlatform = "win";
 
     private static final String DEFAULT_DIRECTORY_PATH = "elementValues";
     ConcurrentMap<String, Object> elementMapList = new ConcurrentHashMap<>();
@@ -143,7 +143,7 @@ public class BaseTest {
         chromeOptions.addArguments("--kiosk");
         chromeOptions.addArguments("--disable-notifications");
         chromeOptions.addArguments("--start-fullscreen");
-        System.setProperty("webdriver.chrome.driver", "web_driver/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "web_driver/chromedriver.exe");
         chromeOptions.merge(capabilities);
         return chromeOptions;
     }
