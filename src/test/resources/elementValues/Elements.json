@@ -11,7 +11,7 @@
   },
   {
     "key": "spccaccept",
-    "value": "sp-cc-accept",
+    "value": "twotabsearchtextbox",
     "type": "id"
   },
   {
@@ -34,7 +34,11 @@
     "value": "proceedToRetailCheckout",
     "type": "name"
   },
-
+  {
+    "key": "firstmouse",
+    "value": "//*[@id=\"search\"]/div[1]/div[1]/div[1]/span[3]/div[2]/div[3]/div/div//div/div/div/div/div",
+    "type": "xpath"
+  },
   {
     "key": "delete",
     "value": "//input[@value=\"Sil\"]",
