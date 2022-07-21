@@ -18,6 +18,6 @@ tags:deleteProduct
 * go basket
 * delete product and check
 * check login page
-## Butona tıklanamsı
+## Butona tiklanmasi
 tags: butona tıklanması
 * Butona tıkla
