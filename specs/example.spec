@@ -1,4 +1,7 @@
 # Testinium Web
+## Go to amazon
+tags: adrese git
+* Go to "https://www.amazon.com.tr/" adress
 
 ## Add Product to Basket
 tags:addProductToBasket
@@ -15,3 +18,6 @@ tags:deleteProduct
 * go basket
 * delete product and check
 * check login page
+## Butona tıklanamsı
+tags: butona tıklanması
+* Butona tıkla

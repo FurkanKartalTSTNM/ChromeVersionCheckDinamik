@@ -19,3 +19,5 @@
 # delete product and check
 * Click to element "delete"
 * check "checkemptybasket" element is exist
+# Butona tıkla
+* Elementine tıkla "twotabsearchtextbox"
