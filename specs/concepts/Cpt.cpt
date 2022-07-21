@@ -1,0 +1,21 @@
+# Search product and add to basket
+* Click to element "spccaccept"
+* Write value "mouse" to element "twotabsearchtextbox"
+* Click to element "navsearchsubmitbutton"
+* Click to element "firstmouse"
+* check "checkstock" element is exist
+* Click to element "addtocartbutton"
+* check "checkbasketwarning" element is exist
+
+# go basket
+* Click to element "navcart"
+
+# proceed to retail checkout
+* Click to element "proceedToRetailCheckout"
+
+# check login page
+* check "continue" element is exist
+
+# delete product and check
+* Click to element "delete"
+* check "checkemptybasket" element is exist
