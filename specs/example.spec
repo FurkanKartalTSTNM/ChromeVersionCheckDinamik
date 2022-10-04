@@ -13,7 +13,7 @@ tags:addProductToBasket
 
 ## Delete product
 tags:deleteProduct
-* Go to "https://www.amazonsadsada.com.tr/" address
+* Go to "https://www.amazon.com.tr/" address
 //* Search product and add to basket
 //* go basket
 //* delete product and check
