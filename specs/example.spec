@@ -1,7 +1,7 @@
 # Testinium Web
 ## Go to amazon
 tags: adrese git
-* Go to "https://www.amazon.com.tr/" address
+* Go to "https://www.amazon.com.tr/" add
 
 ## Add Product to Basket
 tags:addProductToBasket
