@@ -1,10 +1,11 @@
 # Testinium Web
 ## Go to amazon
 tags: adrese git
-* Go to "https://www.amazon.com.tr/" add
+* Go to "https://www.amazon.com.tr/" address
 
 ## Add Product to Basket
 tags:addProductToBasket
+* "2" saniye bekle
 * Go to "https://www.amazon.com.tr/" address
 * Search product and add to basket
 * go basket
