@@ -4,7 +4,7 @@ tags: adrese git
 * Go to "https://www.amazon.com.tr/" address
 
 ## Add Product to Basket
-tags:addProductToBasket
+tags:addProductToBasket, muratcan
 * "2" saniye bekle
 * Go to "https://www.amazon.com.tr/" address
 * Search product and add to basket
