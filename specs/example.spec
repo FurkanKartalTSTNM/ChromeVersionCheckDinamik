@@ -2,7 +2,7 @@
 ## Go to amazon
 tags: adrese git
 * Go to "https://www.amazon.com.tr/" address
-//furkan
+//Ali
 
 ## Add Product to Basket
 tags:addProductToBasket
