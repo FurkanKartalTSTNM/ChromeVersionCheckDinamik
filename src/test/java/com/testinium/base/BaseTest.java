@@ -35,10 +35,12 @@ import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
     //dsfdsf
-    //dsadsadsadkmjlkjk
+    //dsadsadsad
 
-//fdlsfl
+
     protected static WebDriver driver;
+    //dsfsad
+
     protected static Actions actions;
     protected Logger logger = LoggerFactory.getLogger(getClass());
     DesiredCapabilities capabilities;
