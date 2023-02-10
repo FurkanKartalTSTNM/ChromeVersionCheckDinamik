@@ -1,6 +1,6 @@
 # Testinium Web
 ## Go to amazon Xray
-tags:deneme
+tags:AmazonXray
 * Go to "https://www.amazon.com.tr/" address
 //Ali
 
