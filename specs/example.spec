@@ -1,6 +1,6 @@
 # Testinium Web
 ## Go to amazon
-tags:CONG-9008
+tags:deneme
 * Go to "https://www.amazon.com.tr/" address
 //Ali
 
