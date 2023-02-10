@@ -1,6 +1,6 @@
 # Testinium Web
 ## Go to amazon
-tags: adrese git
+tags:CONG-9008
 * Go to "https://www.amazon.com.tr/" address
 //Ali
 
