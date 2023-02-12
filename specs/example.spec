@@ -1,7 +1,7 @@
 # Testinium Web
 ## Go to amazon Xray
 tags:addProduct
-* Go to "https://www.amazon.com.trrrrrrrrr/" address
+* Go to "https://www.amazon.com.tr/" address
 //Ali
 
 ## Add Product to Basket
