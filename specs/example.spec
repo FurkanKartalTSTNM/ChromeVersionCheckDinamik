@@ -5,7 +5,7 @@ tags:CONG-10624
 //Ali
 
 ## Add Product to Basket
-tags:CONG-10772
+tags:CONG-10771
 * "2" saniye bekle
 * Go to "https://www.amazon.com.tr/" address
 * Search product and add to basket
