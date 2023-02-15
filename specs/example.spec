@@ -5,7 +5,7 @@ tags:CONlll ,deneme
 //Ali
 
 ## Add Product to Basket
-tags:CONkkG-10607, sevde
+tags:CONkkG-10607
 * "2" saniye bekle
 * Go to "https://www.amazon.com.tr/" address
 * Search product and add to basket
