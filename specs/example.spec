@@ -1,6 +1,6 @@
 # Testinium Web
 ## Go to amazon Xray
-tags:CONG-10621
+tags:CONG-10622
 * Go to "https://www.amazon.com.tr/" address
 //Ali
 
