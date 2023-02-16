@@ -1,6 +1,6 @@
 # Testinium Web
 ## Go to amazon Xray
-tags:CONG-10817
+tags:CONG-10818_Furkan1234
 * Go to "https://www.amazon.com.tr/" address
 //Ali
 
