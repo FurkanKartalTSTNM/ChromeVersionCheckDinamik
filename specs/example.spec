@@ -14,7 +14,7 @@ tags:CONG-10607
 * check login page
 
 ## Delete product
-tags:ONG-10818
+tags:CONG-10818
 * Go to "https://www.amazon.com.tr/" address
 //* Search product and add to basket
 //* go basket
