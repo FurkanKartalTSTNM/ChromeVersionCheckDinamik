@@ -5,7 +5,7 @@ tags:CONG-10607888_deneme
 //Ali
 
 ## Add Product to Basket
-tags:CONG-106
+tags:CONG-106ddd
 * "2" saniye bekle
 * Go to "https://www.amazon.com.tr/" address
 * Search product and add to basket
