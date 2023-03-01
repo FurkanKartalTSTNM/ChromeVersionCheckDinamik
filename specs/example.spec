@@ -5,7 +5,7 @@ tags:Key-1301
 //Ali
 
 ## Add Product to Basket
-tags:CONG-106ddd
+tags:Key1302
 * "2" saniye bekle
 * Go to "https://www.amazon.com.tr/" address
 * Search product and add to basket
@@ -14,7 +14,7 @@ tags:CONG-106ddd
 * check login page
 
 ## Delete product
-tags:CONG-1081
+tags:Key-1304
 * Go to "https://www.amazon.com.tr/" address
 //* Search product and add to basket
 //* go basket
