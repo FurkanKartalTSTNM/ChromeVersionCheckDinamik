@@ -1,6 +1,6 @@
 # Testinium Web
 ## Go to amazon Xray
-tags:Key-1301
+tags:Key-1301_TagName
 * Go to "https://www.amazon.com.tr/" addressmmm
 //Ali
 
