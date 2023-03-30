@@ -20,3 +20,8 @@ tags:Key-1304
 //* go basket
 //* delete product and check
 //* check login page
+
+## Chrome Versiın Check
+tags:Key-1305
+* Go to "chrome://version/" address
+* "8" saniye bekle
