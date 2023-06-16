@@ -25,7 +25,6 @@ tags:Key-1304
 tags:Key-1305
 * Go to "chrome://version/" address
 * "8" saniye bekle
-* 
 ## Chrome Versiın Checkasdsad
 tags:Key-13066
 * Go to "chrome://version/" address
