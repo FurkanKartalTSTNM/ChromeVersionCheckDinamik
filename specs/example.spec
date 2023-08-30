@@ -22,7 +22,7 @@ tags:Key-1304
 //* check login page
 
 ## Chrome Versiın Check
-tags:Chrome Versiın Check
+tags:ChromeVersionCheck
 * Go to "chrome://version/" address
 * "8" saniye bekle
 ## Chrome Versiın Checkasdsad
