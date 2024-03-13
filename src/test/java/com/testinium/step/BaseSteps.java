@@ -15,8 +15,7 @@ import java.sql.Timestamp;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
 
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class BaseSteps extends BaseTest {
 
@@ -833,6 +832,57 @@ public class BaseSteps extends BaseTest {
         Random random = new Random();
         int index = random.nextInt(elements.size());
         elements.get(index).click();
+    }
+
+    @Step("Şu anki url <url> ile aynı mı")
+    public void checkCurrentUrlEquals(String url) {
+        String currentUrl = driver.getCurrentUrl();
+        assertEquals(currentUrl, url);
+        logger.info("Şu anki url " + url + " ile aynı.");
+    }
+
+    @Step("<key> elementinin görünür olması kontrol edilir")
+    public void checkElementIsVisible(String key) {
+        WebElement element = findElement(key);
+        assertTrue(element.isDisplayed());
+        logger.info(key + " elementi görünür durumda.");
+    }
+
+
+    @Step("<key> elementine <text> değerini yaz")
+    public void sendKeys(String key, String text) {
+        if (!key.equals("")) {
+            clearInputArea(key);
+            findElement(key).sendKeys(text);
+            logger.info(key + " elementine " + text + " texti yazıldı.");
+            logger.info("Actual text: " + text);
+            logger.info("Expected text: " + text);
+        }
+    }
+
+    @Step("Click Enter")
+    public void clickEnter() {
+        actions.sendKeys(Keys.ENTER).build().perform();
+        logger.info("Enter tuşuna basıldı.");
+    }
+
+    @Step("Şu anki url <url> içeriyor mu")
+    public void doesUrlContain(String url) {
+        String currentUrl = driver.getCurrentUrl();
+        logger.info(currentUrl);
+        logger.info(url);
+        assertTrue(currentUrl.contains(url));
+        logger.info("Şu anki url " + url + " içeriyor.");
+    }
+
+    @Step({"<key> elementinin text değeri <expectedText> değerine eşit mi",
+            "get text <key> element and control <expectedText>"})
+    public void checkElementTextEquals(String key, String expectedText) {
+        String actualText = findElement(key).getText();
+        assertEquals(actualText, expectedText);
+        logger.info(key + " elementinin text değeri " + expectedText + " değerine eşit.");
+        logger.info(key+ "Beklenen text: " + actualText);
+        logger.info(key + "Gercek text: " + expectedText);
     }
 
 }

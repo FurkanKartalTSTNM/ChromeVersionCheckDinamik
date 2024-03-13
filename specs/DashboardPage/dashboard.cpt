@@ -108,3 +108,53 @@
 
 # Company seçimi kısmında seçilen companye ait dataların ekrana geldiği görülür
 * Şu anki url "https://testinium.io/home" ile aynı mı
+
+
+
+
+
+
+
+
+# Projects tabına tıklanır
+* "projectsTab_SideBarTabs" elementinin görünür olması kontrol edilir
+* "projectsTab_SideBarTabs" elementine tıkla
+* Wait for element to load with xpath "//a[contains(text(),'Projects')]"
+
+# Geçerli login yapılır ve hesaba giriş yapılır
+* "https://account.testinium.com/uaa/login" adresine git
+* Şu anki url "https://account.testinium.com/uaa/login" ile aynı mı
+* "userName_LoginPage" elementinin görünür olması kontrol edilir
+* "userName_LoginPage" elementine "qa@testinium.io" değerini yaz
+* "password_LoginPage" elementinin görünür olması kontrol edilir
+* "password_LoginPage" elementine "Q6XpZ?6GsMbA" değerini yaz
+* "signInButton_LoginPage" elementinin görünür olması kontrol edilir
+* "signInButton_LoginPage" elementine tıkla
+* Wait for element to load with css "i[class='bi bi-card-checklist']"
+* Şu anki url "https://testinium.io/home" içeriyor mu
+* "userInf_LoginPage" elementinin görünür olması kontrol edilir
+* "userInf_LoginPage" elementinin text değeri "Testinium QA" değerine eşit mi
+
+# Scenarios tabına tıklanır
+* "scenariosTab_SideBarTabs" elementine tıkla
+* "scenariosTab_SideBarTabs" elementinin görünür olması kontrol edilir
+
+# Reports tabına tıkla
+* "reportsTab_SideBarTabs" elementinin görünür olması kontrol edilir
+* "reportsTab_SideBarTabs" elementine tıkla
+
+# Test Executions Auto tabına tıkla
+* "testExecutionsAutoTab_SideBarTabs" elementinin görünür olması kontrol edilir
+* "testExecutionsAutoTab_SideBarTabs" elementine tıkla
+
+# Scheduled Reports tabına tıkla
+* "scheduledReportsTab_SideBarTabs" elementinin görünür olması kontrol edilir
+* "scheduledReportsTab_SideBarTabs" elementine tıkla
+
+# Smart priorization reports tabına tıkla
+* "smartPrioritizationReportTab_SideBarTabs" elementinin görünür olması kontrol edilir
+* "smartPrioritizationReportTab_SideBarTabs" elementine tıkla
+
+# Automated Tests tabına tıkla
+* "automatedTestsTab_SideBarTabs" elementinin görünür olması kontrol edilir
+* "automatedTestsTab_SideBarTabs" elementine tıkla
