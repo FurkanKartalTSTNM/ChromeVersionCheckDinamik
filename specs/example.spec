@@ -1,8 +1,7 @@
 # Testinium Web
 ## Go to amazon Xray
 tags:Key-1301_TagNamsdadsadsasadsadsasadsad
-* Go to "https://www.eamazon.com.tr/" addressmmm
-//Ali
+* Go to "https://www.amazon.com.tr/" address
 
 ## Add Product to Basket
 tags:Key1302
