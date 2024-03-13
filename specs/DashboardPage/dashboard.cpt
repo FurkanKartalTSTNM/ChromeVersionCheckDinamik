@@ -1,0 +1,110 @@
+
+
+# Dashboarddan project sayfasına başarılı şekilde yönlendiği görülmelidir
+* Şu anki url "https://testinium.io/project" ile aynı mı
+
+# Dashboarddan scenarios sayfasına başarılı şekilde yönlendiği görülmelidir
+* Şu anki url "https://testinium.io/scenario" ile aynı mı
+
+# Plans tabına tıklanır
+* "plansTab_SideBarTabs" elementinin görünür olması kontrol edilir
+* "plansTab_SideBarTabs" elementine tıkla
+
+# Dashboarddan plans sayfasına başarılı şekilde yönlendiği görülmelidir
+* Şu anki url "https://testinium.io/plan" ile aynı mı
+
+# Dashboard sayfasından Test Executions(Auto) sayfasına başarılı şekilde yönlendiği görülmelidir
+* Şuanki URL "https://testinium.io/report" değerini içeriyor mu kontrol et
+
+# Dashboard sayfasından Scheduled Reports sayfasına başarılı şekilde yönlendiği görülmelidir
+* Wait "1" seconds
+* Şu anki url "https://testinium.io/report/scheduled" ile aynı mı
+
+# Dashboard sayfasından Smart Prioritization sayfasına başarılı şekilde yönlendiği görülmelidir
+* Wait "1" seconds
+* Şu anki url "https://testinium.io/report/graph" ile aynı mı
+
+# Dashboard sayfasından Automated Tests sayfasına başarılı şekilde yönlendiği görülmelidir
+* Şu anki url "https://testinium.io/automated/code-generator" ile aynı mı
+
+# Dashboard sayfasında hamburger menü butonuna tıklanır
+* "hamburgerMenuButton" elementinin görünür olması kontrol edilir
+* "hamburgerMenuButton" elementine tıkla
+
+# Hamburger menü butonuna tıklanır
+* "hamburgerMenuButton" elementinin görünür olması kontrol edilir
+* "hamburgerMenuButton" elementine tıkla
+
+# Sol menünün daraldığı görülür
+* "TestiniumLogo" elementinin görünür olması kontrol edilir
+
+# Sol menünün genişlediği görülür
+* "sideBarVisible" elementinin görünür olması kontrol edilir
+
+# Hesap ismine tıklanır
+* "HesapIsmiButton" elementinin görünür olması kontrol edilir
+* "HesapIsmiButton" elementine tıkla
+
+# Log out tabına tıklanır
+* "HesapIsmiButton_Logout" elementinin görünür olması kontrol edilir
+* "HesapIsmiButton_Logout" elementine tıkla
+
+# Hesaptan çıkış yapıldığı ve login sayfasına yönlendiği görülür
+* Şu anki url "https://account.testinium.com/uaa/login" ile aynı mı
+
+# Account Information tabına tıklanır
+* "HesapIsmiButton_AccountInformation" elementinin görünür olması kontrol edilir
+* "HesapIsmiButton_AccountInformation" elementine tıkla
+
+# Account Information sayfasına yönlendiği görülür
+* "3" saniye bekle
+* Şu anki url "https://testinium.io/user/account/information" ile aynı mı
+
+# Profile tabına tıklanır
+* "HesapIsmiButton_Profile" elementinin görünür olması kontrol edilir
+* "HesapIsmiButton_Profile" elementine tıkla
+
+# User profile sayfasına yönlendiği görülür
+* Şu anki url "https://testinium.io/user/profile" ile aynı mı
+
+# Dashboard sayfasında active tests paneli altındaki show details butonuna tıklanır
+* "ActiveTest_Dashboard" elementinin görünür olması kontrol edilir
+* "ActiveTest_Dashboard" elementine tıkla
+
+# Active tests sayfasına başarılı şekilde yönlendiği görülür
+* Şu anki url "https://testinium.io/home/active-test" ile aynı mı
+
+# Dashboard sayfasında active plans paneli altındaki show details butonuna tıklanır
+* "ActivePlans_Dashboard" elementinin görünür olması kontrol edilir
+* "ActivePlans_Dashboard" elementine tıkla
+
+# Active plans sayfasına başarılı şekilde yönlendiği görülür
+* Şu anki url "https://testinium.io/home/running-plan" ile aynı mı
+
+# Dashboard sayfasında güneş şeklindeki dark mode butonuna tıklanır
+* "DarkModeClick" elementinin görünür olması kontrol edilir
+* "DarkModeClick" elementine tıkla
+
+# Web sitesinin dark mode a geçtiği ve butonun ay şekline dönüştüğü görülür
+* "DarkModeClick" elementine tıkla
+
+# Sağ üstteki company seçimi kısmından geçilecek company yazılır ve tıklanır
+* "companySelect" elementinin görünür olması kontrol edilir
+* "companySelect" elementine "senaeroglu" değerini yaz
+* Click Enter
+
+# Koşulan son 10 planın rundate, runtime, test result ve details'i Latest Test Runs panelinde görünür
+* "latestTestRuns" elementinin görünür olması kontrol edilir
+
+# Daha önce koşulmuş herhangi bir planın details butonuna tıklanır
+* "planDetail_Table" elementinin görünür olması kontrol edilir
+* "planDetail_Table" elementine tıkla
+
+# Seçilen planın rapor detayları sayfasına yönlendiği görülür
+* Şu anki url "https://testinium.io/report/detail/719135" ile aynı mı
+
+# Kendi ana company'e geçiş yapıldığı ve ana company nin dashboard sayfasına ulaşıldığı görülür
+* Şu anki url "https://testinium.io/home" ile aynı mı
+
+# Company seçimi kısmında seçilen companye ait dataların ekrana geldiği görülür
+* Şu anki url "https://testinium.io/home" ile aynı mı
