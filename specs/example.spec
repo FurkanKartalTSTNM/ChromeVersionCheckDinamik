@@ -23,7 +23,8 @@ tags:Key-1304
 ## Chrome Versiın Check
 tags:ChromeVersionCheck
 * Go to "chrome://version/" address
-* "8" saniye bekle
+* Go to "https://www.amazon.com.tr/" address
+* Go to "https://www.youtube.com/" address
 ## Chrome Versiın Checkasdsad
 tags:Key-13066
 * Go to "chrome://version/" address
