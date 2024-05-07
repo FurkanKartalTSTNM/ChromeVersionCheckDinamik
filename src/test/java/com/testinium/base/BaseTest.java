@@ -6,6 +6,7 @@ import com.google.gson.reflect.TypeToken;
 import com.testinium.model.ElementInfo;
 import com.thoughtworks.gauge.AfterScenario;
 import com.thoughtworks.gauge.BeforeScenario;
+import com.thoughtworks.gauge.Specification;
 import org.apache.commons.lang.StringUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -57,6 +58,10 @@ public class BaseTest {
 
     @BeforeScenario
     public void setUp() {
+        Specification currentSpecification = new Specification();
+        List<String> tags = currentSpecification.getTags();
+        tags.forEach(tag -> System.out.println("_" + tag + "_"));
+
         logger.info("************************************  BeforeScenario  ************************************");
         try {
             if (StringUtils.isEmpty(System.getenv("key"))) {
@@ -150,7 +155,7 @@ public class BaseTest {
         chromeOptions.addArguments("--kiosk");
         chromeOptions.addArguments("--disable-notifications");
         chromeOptions.addArguments("--start-fullscreen");
-        System.setProperty("webdriver.chrome.driver", "web_driver/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "web_driver/chromedriver");
         chromeOptions.merge(capabilities);
         return chromeOptions;
     }
