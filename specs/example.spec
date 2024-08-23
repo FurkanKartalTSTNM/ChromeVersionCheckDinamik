@@ -25,6 +25,27 @@ tags:ChromeVersionCheck
 * Go to "chrome://version/" address
 * Go to "https://www.amazon.com.tr/" address
 * Go to "https://www.youtube.com/" address
+* Go to "chrome://version/" address
+* Go to "https://www.amazon.com.tr/" address
+* Go to "https://www.youtube.com/" address
+* Go to "chrome://version/" address
+* Go to "https://www.amazon.com.tr/" address
+* Go to "https://www.youtube.com/" address
+* Go to "chrome://version/" address
+* Go to "https://www.amazon.com.tr/" address
+* Go to "https://www.youtube.com/" address
+* Go to "chrome://version/" address
+* Go to "https://www.amazon.com.tr/" address
+* Go to "https://www.youtube.com/" address
+* Go to "chrome://version/" address
+* Go to "https://www.amazon.com.tr/" address
+* Go to "https://www.youtube.com/" address
+* Go to "chrome://version/" address
+* Go to "https://www.amazon.com.tr/" address
+* Go to "https://www.youtube.com/" address
+* Go to "chrome://version/" address
+* Go to "https://www.amazon.com.tr/" address
+* Go to "https://www.youtube.com/" address
 ## Chrome Versiın Checkasdsad
 tags:Key-13066
 * Go to "chrome://version/" address
