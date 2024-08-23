@@ -51,7 +51,7 @@ public class BaseTest {
     FirefoxOptions firefoxOptions;
 
     String browserName = "chrome";
-    String selectPlatform = "win";
+    String selectPlatform = "mac";
 
     private static final String DEFAULT_DIRECTORY_PATH = "elementValues";
     ConcurrentMap<String, Object> elementMapList = new ConcurrentHashMap<>();
@@ -66,7 +66,7 @@ public class BaseTest {
         try {
             if (StringUtils.isEmpty(System.getenv("key"))) {
                 logger.info("Local cihazda " + selectPlatform + " ortamında " + browserName + " browserında test ayağa kalkacak");
-                if ("win".equalsIgnoreCase(selectPlatform)) {
+                if ("mac".equalsIgnoreCase(selectPlatform)) {
                     if ("chrome".equalsIgnoreCase(browserName)) {
                         driver = new ChromeDriver(chromeOptions());
                         driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
@@ -151,10 +151,10 @@ public class BaseTest {
         capabilities = DesiredCapabilities.chrome();
         Map<String, Object> prefs = new HashMap<String, Object>();
         prefs.put("profile.default_content_setting_values.notifications", 2);
-        chromeOptions.setExperimentalOption("prefs", prefs);
+        //chromeOptions.setExperimentalOption("prefs", prefs);
         chromeOptions.addArguments("--kiosk");
         chromeOptions.addArguments("--disable-notifications");
-        chromeOptions.addArguments("--start-fullscreen");
+        //chromeOptions.addArguments("--start-fullscreen");
         System.setProperty("webdriver.chrome.driver", "web_driver/chromedriver");
         chromeOptions.merge(capabilities);
         return chromeOptions;
