@@ -77,7 +77,9 @@ public class BaseTest {
                 capabilities.setCapability(ChromeOptions.CAPABILITY, options);
                 capabilities.setCapability("testinium:key", "mehmetaksahin:b0fa2cca656533bb82e5978f677b4b4a");
             System.out.println("Testinium key:" + System.getenv("key"));
-                //capabilities.setCapability("key", System.getenv("key"));
+            System.out.println("Hub:" + System.getenv("hubUrl"));
+
+            //capabilities.setCapability("key", System.getenv("key"));
                 browserName = System.getenv("browser");
                 driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities);
                 actions = new Actions(driver);
