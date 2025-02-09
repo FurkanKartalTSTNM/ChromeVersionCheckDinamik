@@ -64,28 +64,7 @@ public class BaseTest {
 
         logger.info("************************************  BeforeScenario  ************************************");
         try {
-            if (StringUtils.isEmpty(System.getenv("key"))) {
-                logger.info("Local cihazda " + selectPlatform + " ortamında " + browserName + " browserında test ayağa kalkacak");
-                if ("mac".equalsIgnoreCase(selectPlatform)) {
-                    if ("chrome".equalsIgnoreCase(browserName)) {
-                        driver = new ChromeDriver(chromeOptions());
-                        driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
-                    } else if ("firefox".equalsIgnoreCase(browserName)) {
-                        driver = new FirefoxDriver(firefoxOptions());
-                        driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
-                    }
-                } else if ("mac".equalsIgnoreCase(selectPlatform)) {
-                    if ("chrome".equalsIgnoreCase(browserName)) {
-                        driver = new ChromeDriver(chromeOptions());
-                        driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
-                    } else if ("firefox".equalsIgnoreCase(browserName)) {
-                        driver = new FirefoxDriver(firefoxOptions());
-                        driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
-                    }
-                    actions = new Actions(driver);
-                }
 
-            } else {
                 logger.info("************************************   Testiniumda test ayağa kalkacak   ************************************");
                 ChromeOptions options = new ChromeOptions();
                 capabilities = DesiredCapabilities.chrome();
@@ -96,11 +75,13 @@ public class BaseTest {
                 Map<String, Object> prefs = new HashMap<>();
                 options.setExperimentalOption("prefs", prefs);
                 capabilities.setCapability(ChromeOptions.CAPABILITY, options);
-                capabilities.setCapability("key", System.getenv("key"));
+                capabilities.setCapability("testinium:key", "mehmetaksahin:b0fa2cca656533bb82e5978f677b4b4a");
+            System.out.println("Testinium key:" + System.getenv("key"));
+                //capabilities.setCapability("key", System.getenv("key"));
                 browserName = System.getenv("browser");
                 driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capabilities);
                 actions = new Actions(driver);
-            }
+
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
